@@ -29,35 +29,8 @@ I kept the stack lean, fast, and dependency-light:
 
 The UI was built from scratch with a strict **"No Blue"** dark mode policy. It uses a sleek combination of Charcoal surfaces, Emerald Green for bullish indicators, and Sunset Orange for bearish indicators/accents. 
 
-##  How to Run It Locally
-
-Running the app is incredibly simple. You don't need Node.js or any complex build tools.
-
-1. **Clone the repo:**
-   ```bash
-   git clone https://github.com/rakshaak29/btc-predictor.git
-   cd btc-predictor
-   ```
-
-2. **Set up a Python Virtual Environment (Recommended):**
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
-   ```
-
-3. **Install the dependencies:**
-   ```bash
-   pip install -r backend/requirements.txt
-   ```
-
-4. **Start the server:**
-   ```bash
-   cd backend
-   uvicorn main:app --port 8000 --host 0.0.0.0
-   ```
-
-5. **Open your browser!**
-   Go to `http://localhost:8000` and enjoy the dashboard.
+##  Link
+https://btc-predictor-k5pp.onrender.com/
 
 ---
 *Built by Raksha AK*
