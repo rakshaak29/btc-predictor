@@ -1,0 +1,11 @@
+backend/venv/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+backend/predictions.db
+*.db-shm
+*.db-wal
+backend/backtest_results.jsonl
+.DS_Store
