@@ -7,5 +7,4 @@ backend/__pycache__/
 backend/predictions.db
 *.db-shm
 *.db-wal
-backend/backtest_results.jsonl
 .DS_Store
