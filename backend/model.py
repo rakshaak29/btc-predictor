@@ -19,7 +19,7 @@ def predict_next_hour_full(df: pd.DataFrame, num_simulations: int = 10000, alpha
         ewma_vol = np.std(log_returns)
 
     # --- Get last 48 hours of hourly volatility for chart ---
-    rolling_vol = returns_series.rolling(window=10).std().fillna(method='bfill').values
+    rolling_vol = returns_series.rolling(window=10).std().bfill().values
     vol_threshold = float(np.percentile(rolling_vol, 70))
     last_48_vol = rolling_vol[-48:].tolist()
 
