@@ -1,5 +1,8 @@
 # ₿ BTC Range Predictor
 
+##  Link
+https://btc-predictor-k5pp.onrender.com/
+
 Hey there! Welcome to the **BTC Range Predictor** — a full-stack, real-time Bitcoin price prediction engine.
 
 I built this project for the **AlphaI × Polaris Build Challenge**. While the core requirement was to build a prediction model using Geometric Brownian Motion (GBM), I wanted to take things several steps further. Instead of just a basic chart, I built a complete, institution-grade analytics dashboard that feels alive, interactive, and gives you deep insights into the market.
@@ -28,9 +31,3 @@ I kept the stack lean, fast, and dependency-light:
 ##  Design
 
 The UI was built from scratch with a strict **"No Blue"** dark mode policy. It uses a sleek combination of Charcoal surfaces, Emerald Green for bullish indicators, and Sunset Orange for bearish indicators/accents. 
-
-##  Link
-https://btc-predictor-k5pp.onrender.com/
-
----
-*Built by Raksha AK*
