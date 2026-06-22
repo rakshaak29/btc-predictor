@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException, Query
-from fastapi.responses import StreamingResponse
+from fastapi.responses import HTMLResponse, StreamingResponse
 from pydantic import BaseModel
 import sqlite3
 import json
@@ -37,6 +37,14 @@ def init_db():
     conn.close()
 
 init_db()
+# ─── Root & Health ────────────────────────────────────────────────────────────
+@app.get("/", response_class=HTMLResponse)
+def read_root():
+    return HTMLResponse(content=INDEX_HTML)
+
+@app.get("/health")
+def health_check():
+    return {"status": "ok"}
 
 # ─── API: Full current prediction ────────────────────────────────────────────
 @app.get("/api/prediction/current")
