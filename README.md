@@ -1,8 +1,7 @@
 # ₿ BTC Range Predictor
 
 ##  Link
-[https://btc-predictor-k5pp.onrender.com/
-](https://btc-predictor-production-54fb.up.railway.app/)
+https://btc-predictor-production-54fb.up.railway.app/
 
 
 Hey there! Welcome to the **BTC Range Predictor** — a full-stack, real-time Bitcoin price prediction engine.
