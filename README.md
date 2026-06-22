@@ -3,6 +3,8 @@
 ##  Link
 [https://btc-predictor-k5pp.onrender.com/
 ](https://btc-predictor-production-54fb.up.railway.app/)
+
+
 Hey there! Welcome to the **BTC Range Predictor** — a full-stack, real-time Bitcoin price prediction engine.
 
 I built this project for the **AlphaI × Polaris Build Challenge**. While the core requirement was to build a prediction model using Geometric Brownian Motion (GBM), I wanted to take things several steps further. Instead of just a basic chart, I built a complete, institution-grade analytics dashboard that feels alive, interactive, and gives you deep insights into the market.
